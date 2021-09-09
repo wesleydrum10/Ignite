@@ -1,12 +1,18 @@
 {
-  "name": "ignite",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": "https://github.com/wesleydrum10/ignite.git",
-  "author": "Wesley Oliveira <sistemaswesleyti@gmail.com>",
-  "license": "MIT",
-  "dependencies": {
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
-  }
+    "name": "ignite",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/wesleydrum10/ignite.git",
+    "author": "Wesley Oliveira <sistemaswesleyti@gmail.com>",
+    "license": "MIT",
+    "dependencies": {
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.15.4",
+        "@babel/core": "^7.15.5",
+        "@babel/preset-env": "^7.15.4",
+        "@babel/preset-react": "^7.14.5"
+    }
 }
