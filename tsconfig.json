@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {    
+    "lib": ["dom", "dom.iterable", "esnext"], // basicamente adiciona algumas funcionalidades, entende que estaremos lidando com a DOM, faz que tenhamos tipagens que antes não teríamos. Podemos importar InputHTMLAttributes(Retorna todos os atributos que um input pode receber no Html)                                       
+    "jsx": "react-jsx", // especifica que estamos usando jsx, para usarmos html dentro do js, senão o typeScript vai reclamar.                                
+    "moduleResolution": "node",                        
+    "resolveJsonModule": true, // adiciona a posibilidade de importar arquivos json                         
+    "allowJs": true, // fala que podemos ter arquivos js ou ts - Fazendo transição                               
+    "noEmit": true, // quando buildar o código, ele irá omitir o código dela                                   
+    "isolatedModules": true,                          
+    "allowSyntheticDefaultImports": true,              
+    "esModuleInterop": true,                             
+    "forceConsistentCasingInFileNames": true,            
+    "strict": true, // entrar no modo strict do javascript(modo de lidar com erros no js)                                      
+    "skipLibCheck": true                                 
+  },
+  "include": ["src"] // onde o código da nossa aplicação está
+}
