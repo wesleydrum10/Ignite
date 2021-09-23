@@ -1,8 +1,8 @@
-import { useState } from "react";
+import { useState } from "react"; 
 
 export function Counter() {
 
-    const [counter, setCounter] = useState(0)
+    const [counter, setCounter] = useState(0) // explicação sobre imutabilidade
 
     function increment() {
         setCounter(counter + 1)
